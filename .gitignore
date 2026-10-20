@@ -1,0 +1,6 @@
+node_modules/
+.edge-live/
+.edge-profile/
+*.log
+.DS_Store
+Thumbs.db
