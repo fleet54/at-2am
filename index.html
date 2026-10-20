@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>凌晨两点的实验室 · At 2 A.M.</title>
+<meta name="description" content="一个零依赖的网页赛车小游戏：三圈、一辆只会跑的智能车、一段结束语。从代码到上传全部由 AI 智能体完成。" />
+<meta name="author" content="fleet" />
+<meta name="generator" content="DeepSeek Harness (AI agent)" />
+<meta property="og:title" content="凌晨两点的实验室" />
+<meta property="og:description" content="三圈。跑完就去睡。" />
+<meta property="og:image" content="shots/shot-race.png" />
+<style>
+  html, body {
+    margin: 0;
+    height: 100%;
+    background: #070a12;
+    overflow: hidden;
+    font-family: "Microsoft YaHei", "PingFang SC", "Segoe UI", system-ui, sans-serif;
+  }
+  canvas { display: block; width: 100vw; height: 100vh; }
+  #hint {
+    position: fixed;
+    left: 50%;
+    bottom: 18px;
+    transform: translateX(-50%);
+    color: #8598bd;
+    font-size: 13px;
+    letter-spacing: 0.08em;
+    pointer-events: none;
+    user-select: none;
+    white-space: nowrap;
+  }
+</style>
+</head>
+<body>
+<!--
+  凌晨两点的实验室 · At 2 A.M.
+  作者 fleet / 实现 DeepSeek Harness（AI 智能体）
+  从赛道生成、车辆物理、自动驾驶到这三行注释，都是它写的。MIT License。
+-->
+<canvas id="game"></canvas>
+<div id="hint">← → 或 A D 转向 · ↑ 加速 · ↓ 刹车 · 空格 切换自动驾驶 · M 静音 · R 重来</div>
+<script src="game.js"></script>
+</body>
+</html>
