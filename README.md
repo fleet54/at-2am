@@ -8,7 +8,7 @@
 
 ## 🎮 在线玩
 
-- **直接开玩**：https://fleet54.github.io/at-2am/ （Pages 生效后即可访问）
+- **直接开玩**：https://fleet54.github.io/at-2am/ （已经上线，用手机也能玩）
 - **本地玩**：把仓库下载下来，双击 `index.html`。不需要服务器、不需要构建、不需要联网。
 
 ## 怎么玩
